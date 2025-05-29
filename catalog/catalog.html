@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Catálogo de Bicicletas - BikeMaster</title>
   <link rel="stylesheet" href="styles.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
 </head>
+
 <body>
   <header>
     <h2>🚲 BikeMaster</h2>
     <nav>
-      <a href="index.html">Início</a>
+      <a href="#">Início</a>
       <a href="#">Produtos</a>
       <a href="#">Sobre</a>
       <a href="#">Contato</a>
@@ -19,85 +21,40 @@
   </header>
 
   <section class="hero">
-  <div class="hero-container">
-    <div class="hero-left">
-      <h1>Encontre sua próxima <span>Bike</span>!</h1>
-      <p>
-        Explore nosso catálogo de bicicletas inovadoras, selecionadas para todos os estilos, idades e aventuras.
-        Qualidade garantida, entrega rápida!
-      </p>
-      <div class="hero-buttons">
-        <a href="#" class="btn-primary"><i class="fas fa-cart-shopping"></i> Ver Ofertas</a>
-        <a href="#" class="btn-outline"><i class="fas fa-info-circle"></i> Saiba Mais</a>
+    <div class="hero-container">
+      <div class="hero-left">
+        <h1>Encontre sua próxima <span>Bike</span>!</h1>
+        <p>
+          Explore nosso catálogo de bicicletas inovadoras, selecionadas para todos os estilos, idades e aventuras.
+          Qualidade garantida, entrega rápida!
+        </p>
+        <div class="hero-buttons">
+          <a href="#" class="btn-primary"><i class="fas fa-cart-shopping"></i> Ver Ofertas</a>
+          <a href="#" class="btn-outline"><i class="fas fa-info-circle"></i> Saiba Mais</a>
+        </div>
+      </div>
+      <div class="hero-right">
+        <img src="destaque.png" alt="Bike em destaque" />
       </div>
     </div>
-    <div class="hero-right">
-      <img src="destaque.png" alt="Bike em destaque" />
-    </div>
-  </div>
-</section>
+  </section>
 
   <section class="catalog">
     <div class="catalog-header">
-      <h2>Catálogo de Bicicletas</h2>
-      <p>Veja nossos modelos disponíveis para todas as aventuras.</p>
+      <div class="catalog-header-left">
+        <h2>Catálogo de Bicicletas</h2>
+        <p>Veja nossos modelos disponíveis para todas as aventuras.</p>
+      </div>
       <div class="catalog-search">
         <input type="text" placeholder="Buscar modelo, marca...">
         <button><i class="fas fa-search"></i> Buscar</button>
       </div>
     </div>
 
+    </div>
+
     <div class="bike-grid">
-      <!-- Cada card representa uma bicicleta -->
-      <div class="bike-card">
-        <img src="bike1.png" alt="Speed Pro 700">
-        <h3>Speed Pro 700</h3>
-        <p>Bicicleta de estrada leve e rápida, ideal para velocidade.</p>
-        <span class="price">R$ 5.299</span>
-        <span class="tag">Speed</span>
-        <button>🚲 Comprar</button>
-      </div>
-      <div class="bike-card">
-        <img src="bike2.png" alt="Mountain XT 29">
-        <h3>Mountain XT 29</h3>
-        <p>Pronta para trilhas e terrenos difíceis, com suspensão moderna.</p>
-        <span class="price">R$ 4.899</span>
-        <span class="tag green">MTB</span>
-        <button>🚲 Comprar</button>
-      </div>
-      <div class="bike-card">
-        <img src="bike3.png" alt="Urban Flex 500">
-        <h3>Urban Flex 500</h3>
-        <p>Ideal para a cidade, confortável e estilosa para o dia a dia.</p>
-        <span class="price">R$ 3.150</span>
-        <span class="tag red">Urbana</span>
-        <button>🚲 Comprar</button>
-      </div>
-      <div class="bike-card">
-        <img src="bike4.png" alt="Kids Fun 16">
-        <h3>Groove Overdrive</h3>
-        <p>Diversão garantida para os pequenos, com rodinhas de apoio.</p>
-        <span class="price">R$ 33.000,00</span>
-        <span class="tag yellow">Infantil</span>
-        <button>🚲 Comprar</button>
-      </div>
-        <div class="bike-card">
-        <img src="bike5.png" alt="Kids Fun 16">
-        <h3>Groove Overdrive</h3>
-        <p>Diversão garantida para os pequenos, com rodinhas de apoio.</p>
-        <span class="price">R$ 33.000,00</span>
-        <span class="tag yellow">Infantil</span>
-        <button>🚲 Comprar</button>
-      </div>
-      <div class="bike-card">
-        <img src="bike6.png" alt="Urban Flex 500">
-        <h3>Urban Flex 500</h3>
-        <p>Ideal para a cidade, confortável e estilosa para o dia a dia.</p>
-        <span class="price">R$ 3.150</span>
-        <span class="tag red">Urbana</span>
-        <button>🚲 Comprar</button>
-      </div>
-      <!-- Adicione os outros cards aqui seguindo o padrão -->
+
     </div>
   </section>
 
@@ -110,5 +67,7 @@
       <a href="#"><i class="fab fa-twitter"></i></a>
     </div>
   </footer>
+  <script src="script.js"></script>
 </body>
+
 </html>
